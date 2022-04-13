@@ -1,25 +1,39 @@
 ---
-title: "Title Here (*Latin Species Name*)"
-year: 20XX
+title: "An open, efficient, and transparent spatial reproducible reporting tool for data discovery and science advice"
+year: 2022
 report_number: nnn
 author: |
-  First. M. Last^1^ and
-  Alex B. Smith^2^
-author_list: "Last, F.M. and Smith, A.B."
-region: Pacific Region
+  Quentin Stoyel^1^,
+  Stephen Finnis^1^,
+  Catalina Gomez^1^,
+  Gordana Lazin^1^,
+  Rémi Daigle^1^,
+  Lindsay Brager^2^,
+  Adrian Hamer^1^,
+  Charlotte Smith^1^,
+  David Beauchesne^3^,
+  Kevin Cazelles^3^,
+  Sean Butler^3^,
+  Tana Worcester^1^
+author_list: "Stoyel, Q., Finnis, S., Gomez, C., Lazin, G., Daigle, R., Brager, L., Hamer, A., Smith, C., Beauchesne, D., Cazelles, K., Butler, S., Worcester, T."
+region: Maritimes Region
 isbn: ""
 address: |
-  ^1^Pacific Biological Station\
-     Fisheries and Oceans Canada, 3190 Hammond Bay Road\
-     Nanaimo, British Columbia, V9T 6N7, Canada\
-  ^2^Far, far away\
-     Another Galaxy
-phone: "(555) 555-5555"
-author_footnote: "Email: First.Author@dfo-mpo.gc.ca | telephone: (250) 756-5555"
+  ^1^Bedford Institute of Oceanography\
+     Fisheries and Oceans Canada, 1 Challenger Drive PO Box 1006\
+     Dartmouth, Nova Scotia, B2Y 4A2, Canada\
+  ^2^St. Andrews Biological Station\
+     Fisheries and Oceans Canada, 125 Marine Science Drive\
+     St. Andrews, New Brunswick, G1S 3M7, Canada\
+  ^3^inSileco\
+     2-775 Avenue Monk\
+     Quebec City, Quebec, G1S 3M7, Canada   
+phone: "(782) 641-1356"
+author_footnote: "Email: Quentin.Stoyel@dfo-mpo.gc.ca | telephone: (782) 641-1356"
 abstract: |
-  Here is the abstract text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Open and reproducible research practices offer a means to keep pace with rapidly expanding knowledge as science becomes increasingly data-intensive. The Science branch of Fisheries and Oceans Canada (DFO) encompasses a range of research topics yet approaches to data governance are often impeded by siloed groups and outdated workflows. Using R for coding and Git for version control, we developed a tool that generates automated reports to enable data-discovery of DFO and non-DFO information within the Maritimes region. We focus our framework on co-creation between report users, data providers, and experts to document and identify datasets along with their caveats, uncertainties, or other disclaimers. We also proactively use this as an opportunity to increase collaboration and transparency within DFO by highlighting how reproducible methods can increase efficiency and modernize workflows. This tool has reduced time spent compiling and documenting data from weeks to several minutes, allowing more time for better science.
 abstract_other: |
-  Voici le résumé. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  [I THINK THIS GETS ADDED LATER? I NEED TO CHECK THIS]. Voici le résumé. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 output:
  csasdown::techreport_pdf:
    french: false
