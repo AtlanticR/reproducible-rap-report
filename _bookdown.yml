@@ -8,6 +8,7 @@ rmd_files: ["index.Rmd",
             "04_reportUse.Rmd",
             "04_discussionActual.Rmd",
             "04_discussion.Rmd",
+            "05_conclusions.Rmd",
             "05_appendix.Rmd",
             "06_bibliography.Rmd"]
 delete_merged_file: true
