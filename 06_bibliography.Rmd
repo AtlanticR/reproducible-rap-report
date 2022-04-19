@@ -6,7 +6,7 @@
 
 \clearpage
 
-# References
+# REFERENCES
 
 <!-- The following sets the appropriate indentation for the references -->
 \noindent
