@@ -1,4 +1,4 @@
-# Introduction {#sec:introductionActual}
+# INTRODUCTION
 
 <!-- An example of how to include text based on the language. The two chunks below shows how switching the toggle in the YAML header for french allows inclusion/rejection of a paragraph. -->
 
@@ -7,8 +7,8 @@ The ocean and environmental sciences are becoming increasingly interdisciplinary
 The Science Branch within Fisheries and Oceans Canada (DFO) spans a range of diverse research topics and operations, yet is overwhelmed by many of the same issues affecting science globally, related to transparent, transferable, and reproducible workflows. Developing reproducible tools, particularly those that focus on data discovery and reporting, were identified as a potential remedy to these siloed work environments [@Edwards2018; @Gomez2021]. In response to these needs, different teams within DFO have developed open-source software tools to address these problems:
 
 * The Pacific Region has created multiple R-based tools for reproducible reporting including ones to generate technical reports and Canadian Science Advisory Secretariat (CSAS) documents (i.e., the *csasdown* R package; @Anderson2022; https://github.com/pbs-assess/csasdown). For example, *csasdown* was used to create an automated Research Document to model the populations of 113 groundfish species (@Anderson2022; see links within https://github.com/pbs-assess).
-* The Newfoundland and Labrador Region has developed interactive dashboards in support of stock assessment processes [@Regular2020; https://github.com/PaulRegular/interactive-stock-assessment].
-* The Maritimes Region developed a reproducible atlas technical report in 2012 to model the population status, important habitat, temperature and salinity preferences for 104 fish and invertebrate species [@Ricard2013]. This atlas is currently being updated [@Ricard2021; https://github.com/dfo-gulf-science/Maritimes-SUMMER-Atlas] and a similar approach is currently underway in the Gulf Region. Further, a collaborative framework was developed to assess and monitor Marine Protected Areas, where all data assimilation and associated methods were encoded in R [@Choi2018; https://github.com/jae0/].
+* The Newfoundland and Labrador Region has developed interactive dashboards in support of stock assessment processes (@Regular2020; https://github.com/PaulRegular/interactive-stock-assessment).
+* The Maritimes Region developed a reproducible atlas technical report in 2012 to model the population status, important habitat, temperature and salinity preferences for 104 fish and invertebrate species [@Ricard2013]. This atlas is currently being updated (@Ricard2021; https://github.com/dfo-gulf-science/Maritimes-SUMMER-Atlas) and a similar approach is currently underway in the Gulf Region. Further, a collaborative framework was developed to assess and monitor Marine Protected Areas, where all data assimilation and associated methods were encoded in R (@Choi2018; https://github.com/jae0/).
 
 Projects and decisions within DFO can be controversial, complex, and resource-intensive [@Doubleday1997; @DFO2018]. Continued advancement of reproducible reporting tools allows for increased efficiency, quality, and transparency by making workflows both repeatable and publicly available [@Lowndes2017; @Munafo2017].
 
