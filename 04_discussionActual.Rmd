@@ -1,4 +1,4 @@
-# My Discussion
+# DISCUSSION
 
 In a direct response to repeat requests for data reports, we have developed a Spatial Reproducible Reporting Tool to display species data within a user-defined area of interest. By coding with R and R Markdown, in conjunction with Git and GitHub for version control, we have developed a tool to increase the efficiency and transparency for Science responses. This tool is developed for data-discovery, and currently summarizes over thirty sources, primarily focusing on Species at Risk, from DFO and non-DFO data. Reports can be rendered in under four minutes, resulting in a quantifiable reduction of time and resources spent acquiring and manipulating data into the required format. Ultimately, this aligns with the goals of reproducible data science globally, within the Canadian Government, and DFO.
 
