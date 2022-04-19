@@ -109,20 +109,5 @@ The first time this code was run for the French version though, an error was iss
 
 This means that `rosettafish` has no idea what the French translation is for these column names. At this point, we would either change the names of the columns in the data file and code to something `rosettafish` knows about, or add the translation of our terms into `rosettafish`. That is what we have done, so this should compile for you with a correct translation. In your workflow, once you have added your translation and re-installed the `rosettafish` package, your terms will be recognized and translated. A great online translator for this is [DeepTL](https://www.deepl.com/en/home).
 
-```{r stephentest, results = "asis"}
-qualData <- readr::read_csv(file.path("data", "QualityTiers.csv"))
-options(knitr.kable.NA = "") # include this or blank rows from linesep function will show NA
-
-csasdown::csas_table(qualData,
-  #col.names = c("Year", as.character(ages)),
-  caption = "A long and wide table",
-  format = "latex", 
-  linesep = "") %>% # add a blank line between the row entries
-  #font_size = 8) %>%
-  kableExtra::column_spec(1, width = "5em") %>%
-  kableExtra::column_spec(2, width = "15em") %>%
-  kableExtra::column_spec(3, width = "15em")
-
-```
 
 
