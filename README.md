@@ -6,7 +6,7 @@ This Technical Report including a description of the workflow and code to create
 
 
 ### Notes
-This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown),  developed by members of DFO’s Pacific Region to facilitate the creation of reproducible CSAS documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we therefore used **csasdown** for the creation of this Technical Report.
+This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown),  developed by members of DFO’s Pacific Region to facilitate the creation of reproducible Canadian Science Advisory Secretariat (CSAS) documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we therefore used **csasdown** for the creation of this Technical Report.
 
 The code for the Spatial Reproducible Reporting Tool mentioned throughout this Technical Report is available here: <https://github.com/dfo-mar-odis/shinySpatialApp>
 
