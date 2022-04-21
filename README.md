@@ -2,18 +2,18 @@
 
 This technical report provides an overview of the work to create a Spatial Reproducible Reporting Tool, created by a team of self-proclaimed Strategic Reproducible Analytical Pipelines (RAP) Champions, formed within the Strategic Science Programming and Integrity Division of DFO Maritimes. 
 
-This Technical Report including a description of the workflow and code, lessons learned, and future directions. We present a snapshot of the progress made in the hopes that these efforts, while fulfilling a specific reporting need, will also facilitate increased collaboration and reproducibility in monitoring and research relevant to decision-making within DFO.
+This Technical Report including a description of the workflow and code to create this Reporting Tool, lessons learned, and future directions. We present a snapshot of the progress made in the hopes that these efforts, while fulfilling a specific reporting need, will also facilitate increased collaboration and reproducibility in monitoring and research relevant to decision-making within DFO.
 
 
 ### Notes
-This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown),  developed by members of DFO’s Pacific Region to facilitate the creation of reproducible CSAS documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we used the **csasdown** R package for the creation of this Technical Report.
+This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown),  developed by members of DFO’s Pacific Region to facilitate the creation of reproducible CSAS documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we therefore used **csasdown** for the creation of this Technical Report.
 
-The code for the Spatial Reproducible Reporting Tool mentioned throughout this Technical Report is available [here] (https://github.com/dfo-mar-odis/shinySpatialApp)
+The code for the Spatial Reproducible Reporting Tool mentioned throughout this Technical Report is available here: <https://github.com/dfo-mar-odis/shinySpatialApp>
 
 ### How to run this Technical Report:
-We recommend using [RStudio](https://rstudio.com) as the integrated development environment (IDE). If the user is using Windows then it is highly recommended to also install [Rtools](https://cran.r-project.org/bin/windows/Rtools/), which are tools to compile R packages from source; a feature that is occasionally required.
+We recommend using [RStudio](https://rstudio.com) as the integrated development environment (IDE).
 
-
+Maybe something about "remotes" and "tinytex"????
 
 
 ### Collaborative Workflow 
