@@ -29,7 +29,7 @@ address: |
      2-775 Avenue Monk\
      Quebec City, Quebec, G1S 3M7, Canada   
 phone: "(782) 641-1356"
-author_footnote: "Email: Quentin.Stoyel@dfo-mpo.gc.ca | telephone: (782) 641-1356"
+author_footnote: "Email: Quentin.Stoyel@dfo-mpo.gc.ca"
 abstract: |
   Open and reproducible research practices offer a means to keep pace with rapidly expanding knowledge as science becomes increasingly data-intensive. The Science branch of Fisheries and Oceans Canada (DFO) encompasses a range of research topics yet approaches to data governance are often impeded by siloed groups and outdated workflows. Using R for coding and Git for version control, we developed a tool that generates automated reports to enable data-discovery of DFO and non-DFO information within the Maritimes region. We focus our framework on co-creation between report users, data providers, and experts to document and identify datasets along with their caveats, uncertainties, or other disclaimers. We also proactively use this as an opportunity to increase collaboration and transparency within DFO by highlighting how reproducible methods can increase efficiency and modernize workflows. This tool has reduced time spent compiling and documenting data from weeks to several minutes, allowing more time for better science.
 abstract_other: |
