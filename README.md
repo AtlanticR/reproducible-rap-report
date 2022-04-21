@@ -1,6 +1,6 @@
 ### Background
 
-This Technical Report provides an overview of the work involved in creating a Spatial Reproducible Reporting Tool, which generates automated reports to enable data-discovery of DFO and non-DFO information within the Maritimes region. This Reporting Tool was created by a team of self-proclaimed Strategic Reproducible Analytical Pipelines (RAP) Champions, formed within the Strategic Science Programming and Integrity Division of DFO Maritimes. This Technical Report therefore including a description of the workflow and code to create this Reporting Tool, lessons learned, and future directions.
+This Technical Report provides an overview of the work involved in creating a Spatial Reproducible Reporting Tool, which generates automated reports to enable data-discovery of DFO and non-DFO information within the Maritimes region. This Reporting Tool was created by a team of Strategic Reproducible Analytical Pipelines (RAP) Champions, formed within the Strategic Science Programming and Integrity Division of DFO Maritimes. This Technical Report therefore including a description of the workflow and code to create the Reporting Tool, lessons learned, and future directions.
 
 ### Notes
 This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown), developed by members of DFO’s Pacific Region. *csasdown* facilitates the creation of reproducible Canadian Science Advisory Secretariat (CSAS) documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we therefore used **csasdown** for the creation of this Technical Report. Guidelines for creating Technical Reports and other DFO science report series are available [here](https://publications.gc.ca/site/eng/9.874714/publication.html).
@@ -22,18 +22,16 @@ Next, install the version of LaTeX that will be used to generate the PDF version
 > tinytex::install_tinytex()
 ```
 
-This work uses the **renv** package to track all of the additional R packages required to create the Technical Report. One of the useful functions of **renv** is being able to see if your environment has changed; i.e., it is out of sync with the lockfile (a text file storing information about the packages that have been installed in the environment). 
+This work uses the **renv** package to track all of the additional R packages required to create the Technical Report. The **renv** package allows user to see if the environment has changed; i.e., it is out of sync with the lockfile (a text file storing information about the packages that have been installed in the environment). 
 
 To check if the environment is out of sync, execute the `renv::status`
-command below. You will see that the project is synced with the
-lockfile.
+command below. 
 
 ``` r
 > renv::status()
 * The project is already synchronized with the lockfile.
 ```
-
-If new packages are installed, Use 'renv::snapshot()' to add these packages to the lockfile, and save the current state of the project.
+If a message states the project is synced with the lockfile, no further work needs to be done. If new packages have been installed, use `renv::snapshot()` to add these packages to the lockfile, and save the current state of the project.
 
 
 ### Collaborative Workflow 
