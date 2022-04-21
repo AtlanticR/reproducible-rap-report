@@ -1,20 +1,18 @@
 ### Background
 
-In 2018, requests to the Strategic Science Planning and Program Integrity division within DFO Maritimes to identify and summarize the available DFO and non-DFO datasets were becoming increasingly frequent. Born out of frustration and a need for swift and effective approaches, a team of self-proclaimed Strategic Reproducible Analytical Pipeline (RAP) Champions was formed to automate the creation of these Reports. The primary objective of this initiative has been to develop a web-based tool to generate Reproducible Reports to identify and describe DFO and non-DFO datasets within a user-defined area. Specifically, we address internal requests that support processes that provide frequent and standardized advice, such as CSAS, Aquaculture Siting Responses, and Environmental Response, which typically focus on Species at Risk. We have encountered multiple challenges regarding data storage, access, and duplication of effort; therefore, a broad, secondary objective has been to spearhead discussions within DFO to advance reproducible workflows and improve data management practices, aligned with Open Government mandates to make information more accessible to everyone (PCO 2018; DFO 2020a; Gomez et al. 2021;
-SCC 2021). This technical report provides an overview of the work done so far to create this Spatial Reproducible Reporting Tool including a description of the workflow and code, lessons learned, and future directions. We present a snapshot of the progress made in the hopes that
-these efforts, while fulfilling a specific reporting need, will also facilitate increased collaboration and reproducibility in monitoring and research relevant to decision-making within DFO.
+This technical report provides an overview of the work to create a Spatial Reproducible Reporting Tool, created by a team of self-proclaimed Strategic Reproducible Analytical Pipelines (RAP) Champions, formed within the Strategic Science Programming and Integrity Division of DFO Maritimes. 
+
+This Technical Report including a description of the workflow and code, lessons learned, and future directions. We present a snapshot of the progress made in the hopes that these efforts, while fulfilling a specific reporting need, will also facilitate increased collaboration and reproducibility in monitoring and research relevant to decision-making within DFO.
+
 
 ### Notes
-R package [csasdown](https://github.com/pbs-assess/csasdown) was
-recently developed by members of DFO’s Pacific Region to facilitate the
-creation of reproducible CSAS documents using **R Markdown** and
-**bookdown**. The package also includes scripts for generating
-reproducible DFO technical reports (see [Guide for the production of
-Fisheries and Oceans Canada science report
-series](https://publications.gc.ca/site/eng/9.874714/publication.html)
-for more information)
+This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown),  developed by members of DFO’s Pacific Region to facilitate the creation of reproducible CSAS documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we used the **csasdown** R package for the creation of this Technical Report.
 
-In an attempt to follow reproducible data practices, we used the **csasdown** R package for the creation of this Technical Report.
+The code for the Spatial Reproducible Reporting Tool mentioned throughout this Technical Report is available [here] (https://github.com/dfo-mar-odis/shinySpatialApp)
+
+### How to run this Technical Report:
+We recommend using [RStudio](https://rstudio.com) as the integrated development environment (IDE). If the user is using Windows then it is highly recommended to also install [Rtools](https://cran.r-project.org/bin/windows/Rtools/), which are tools to compile R packages from source; a feature that is occasionally required.
+
 
 
 
