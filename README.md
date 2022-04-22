@@ -3,7 +3,7 @@
 This Technical Report provides an overview of the work involved in creating a Spatial Reproducible Reporting Tool, which generates automated reports to enable data-discovery of DFO and non-DFO information within the Maritimes region. This Reporting Tool was created by a team of Strategic Reproducible Analytical Pipelines (RAP) Champions, formed within the Strategic Science Programming and Integrity Division of DFO Maritimes. This Technical Report therefore including a description of the workflow and code to create the Reporting Tool, lessons learned, and future directions.
 
 ### Notes
-This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown), developed by members of DFO’s Pacific Region. *csasdown* facilitates the creation of reproducible Canadian Science Advisory Secretariat (CSAS) documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we therefore used **csasdown** for the creation of this Technical Report. Guidelines for creating Technical Reports and other DFO science report series are available [here](https://publications.gc.ca/site/eng/9.874714/publication.html).
+This Technical Report was created using the R package [csasdown](https://github.com/pbs-assess/csasdown), developed by members of DFO’s Pacific Region. **csasdown** facilitates the creation of reproducible Canadian Science Advisory Secretariat (CSAS) documents and Technical Reports using **R Markdown** and **bookdown**. In an attempt to follow reproducible data practices, we therefore used **csasdown** for the creation of this Technical Report. Guidelines for creating Technical Reports and other DFO science report series are available [here](https://publications.gc.ca/site/eng/9.874714/publication.html).
 
 The code for the Spatial Reproducible Reporting Tool mentioned throughout this Technical Report is available from: <https://github.com/dfo-mar-odis/shinySpatialApp>
 
@@ -31,8 +31,12 @@ command below.
 > renv::status()
 * The project is already synchronized with the lockfile.
 ```
+If the project is not yet in sync, run `renv::restore()` to install the needed dependencies. 
+
 If a message states the project is synced with the lockfile, no further work needs to be done. If new packages have been installed, use `renv::snapshot()` to add these packages to the lockfile, and save the current state of the project.
 
+###Rendering the report:
+Once all the packages are installed, the report can be rendered by knitting **index.Rmd** and viewing the output in _/book/techreport.pdf.
 
 ### Collaborative Workflow 
 Suggestions for reviewers as to how review this Technical Report via GitHub:
@@ -47,10 +51,8 @@ Suggestions for reviewers as to how review this Technical Report via GitHub:
 
 5. Routinely Pull (i.e. git fetch + git merge) from origin/main to deal with any conflicts `git pull origin main`
 
-6. Once the original issue is fixed, ensure the report can still be generated through the app and that the test suite passes: `testthat::test_local()`
+6. If everything works correctly, make a pull request from GitHub website to merge `my_dev_branch` into `main`.
 
-7. If everything still runs correctly, make a pull request from GitHub website to merge `my_dev_branch` into `main`.
+7.  Other developers will then respond to the request and test out the code in their dev branches to make sure there are no issues.
 
-8.  Other developers will then respond to the request and test out the code in their dev branches to make sure there are no issues.
-
-9.  Once all lights are green, the pull request will be accepted and the new code merged into main branch.
+8.  Once all lights are green, the pull request will be accepted and the new code merged into main branch.
