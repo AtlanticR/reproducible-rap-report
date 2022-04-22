@@ -35,7 +35,7 @@ If the project is not yet in sync, run `renv::restore()` to install the needed d
 
 If a message states the project is synced with the lockfile, no further work needs to be done. If new packages have been installed, use `renv::snapshot()` to add these packages to the lockfile, and save the current state of the project.
 
-###Rendering the report:
+### Rendering the report:
 Once all the packages are installed, the report can be rendered by knitting **index.Rmd** and viewing the output in _/book/techreport.pdf.
 
 ### Collaborative Workflow 
