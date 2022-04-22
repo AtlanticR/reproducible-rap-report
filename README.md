@@ -16,7 +16,7 @@ Run the following commands to install the **remotes** and **csasdown** packages.
 > install.packages("remotes")
 > remotes::install_github("pbs-assess/csasdown")
 ``` 
-Next, install the version of LaTeX that will be used to generate the PDF version of the report. This wiki page provides instructions for installing LaTeX for use with **csasdown**: <https://github.com/pbs-assess/csasdown/wiki/Latex-Installation-for-csasdown> This might also take some time to load. Click "Yes" to any pop-ups that may appear.
+Next, install the version of LaTeX that will be used to generate the PDF version of the report. This wiki page provides instructions for installing LaTeX for use with **csasdown**: <https://github.com/pbs-assess/csasdown/wiki/Latex-Installation-for-csasdown> This might also take some time to load. Click "Yes" to any questions that may appear.
 
 ``` r
 > tinytex::install_tinytex()
