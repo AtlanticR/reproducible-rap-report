@@ -14,8 +14,7 @@ author: |
   David Beauchesne^3^,
   Kevin Cazelles^3^,
   Sean Butler^3^,
-  Tana Worcester^1^
-author_list: "Stoyel, Q., Finnis, S., Gomez, C., Lazin, G., Daigle, R., Brager, L., Hamer, A., Smith, C., Beauchesne, D., Cazelles, K., Butler, S., Worcester, T."
+author_list: "Stoyel, Q., Finnis, S., Gomez, C., Lazin, G., Daigle, R., Brager, L., Hamer, A., Smith, C., Beauchesne, D., Cazelles, K., Butler, S."
 region: Maritimes Region
 isbn: ""
 address: |
