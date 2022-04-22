@@ -5,5 +5,6 @@ rmd_files: ["index.Rmd",
             "03_reportUse.Rmd",
             "04_discussion.Rmd",
             "05_conclusions.Rmd",
-            "06_bibliography.Rmd"]
+            "06_acknowledgments.Rmd",
+            "07_bibliography.Rmd"]
 delete_merged_file: true
