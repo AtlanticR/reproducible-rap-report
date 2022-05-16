@@ -57,4 +57,3 @@ Suggestions for reviewers as to how review this technical report via GitHub:
 
 8.  Once all lights are green, the pull request will be accepted and the new code merged into main branch.
 
-This is a test to make sure I don't accidentally delete everything - Jake
