@@ -21,7 +21,7 @@ Aquatic species (i.e., marine mammals, fish, reptiles, and mollusks) that have b
 
 ## Inputs
 ### Data sources
-Data is gathered from multiple DFO and non-DFO sources and are available in a variety of forms. We have adapted our workflows to accommodate these various data types. This has included but is not limited to:
+Data are gathered from multiple DFO and non-DFO sources and are available in a variety of forms. We have adapted our workflows to accommodate these various data types. This has included but is not limited to:
 
 * R packages [e.g., the *robis* R package for accessing the Ocean Biodiversity Information System (OBIS) data, @Provoost2021];
 * URL links to the data [e.g., the Government of Canada Open Data portal, @OpenData2022]; and
@@ -32,7 +32,7 @@ The data compiled and used by our core team are in multiple different formats in
 We track the datasets that have been or will be incorporated into the Report in an Excel spreadsheet on SharePoint, and use this to state approximate timelines for completion, and to monitor which team member is responsible for the addition of each new dataset or section. This spreadsheet is continually updated as we progress, or as we are made aware of additional datasets that may be useful for the Report. 
 
 ### Data storage and updates
-Copies of the processed data, metadata, and final Reports are stored on DFO’s internal network, but we intend to move all datasets to the Azure cloud system once it can host Protected B information. Since new data or changes to datasets can bring challenges to our Report, we do not host “live” versions of the data. For example, the code may not be adapted to deal with potential issues such as new data formats or outliers. However, for Open Data records, automated GitHub actions were developed to periodically run tests and update the Open Data files. Our team is still investigating methods for updating the datasets so the information remains current. 
+Copies of the processed data, metadata, and final Reports are stored on DFO’s internal network, but we intend to move all datasets to the Azure cloud system once it can host Protected B information. Since new data or changes to datasets can bring challenges to our Report, we do not host “live” versions of the data. For example, the code may not be adapted to deal with potential issues such as new data formats or outliers. However, for Open Data records, automated GitHub actions were developed to periodically run tests and update the Open Data files. Our team is currently investigating methods and best practices for updating the datasets so the information remains current. 
 
 ### Data access
 The datasets accessed by the Reproducible Reporting tool have differing Government of Canada security levels, which affect how we store and distribute the data. For each dataset, we identify its security level from the following classifications:
@@ -184,7 +184,7 @@ Finnis: Yes, see comment in Introduction. I think it is ~15 but will need to che
 
 Line 159 & 160: This is just a stylistic comment so by all means completely disregard it. In place of "Predicated" here I would use "based" and in line 160 I would use "conceptualization" instead of "ideation". My manuscripts were constantly hammered by my supervisors to use more accessible language in scientific writing while I was in my Master's so this comment is coming from that training (Trauma?). Any stylistic things I come across I'll highlight, but again, these are only suggestions, feel free to keep or throw out any of these.
 
-Finnis: Thank you for the suggestions! I've had similar experiences... but sometimes I can't find the right words. I've changed these.
+Finnis: Thank you for the suggestions! I've had similar experiences but sometimes I still can't find the right words. I've changed these.
 
 Line 172: Maybe "used" instead
 
