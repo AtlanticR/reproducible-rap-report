@@ -16,14 +16,14 @@ Review:
 
 General notes on introduction: The authors provide a detailed description of the issues surrounding reproducibility in the scientific process with recent technological advances, how this relates to the work carried out in the Science Branch of DFO, provide a breakdown of other tools developed within DFO to help with reproducibility issues, and provide the rationalization for creating the Reproducible Reporting tool outlined in this technical report. In general, the introduction was very well referenced, provided a good background in the area, and explained the issues and potential fixes in reproducible reporting very well. Below I provide some potential edits to the introduction by line numbers, present in the pdf, but also highlighted with () brackets to alert the authours to the sections I reference if the editing will be done via github collaboration. This will be the method I use for potential edits through the rest of the document as well.
 
-Finnis: Jake, thank you for the time and the thoughtful review for this Technical Report. I agree with your comments about the tone. My understanding is that the tone of Technical Reports is slightly open-ended, but I agree it could be made more formal.
+Finnis: Thank you, Jakel, for the time and the thoughtful review of this Technical Report. I agree with your comments about the tone. My understanding is that the formatting and tone of Technical Reports is slightly open-ended, but I agree it could be made more formal and "technical". I've made adjustments to the text where you have made recommendations. I have also addressed your comments below each review to note the exact changes to the text.
 
 Line 129: Is it possible to get a rough number of requests in here? If this is possible, including it could really drive home just how much time the RR tool can save
 
-Finnis: Good idea, thank you! I will add this to Abstract, and the first paragraph of the Discussion. I think those are the best places to include the "Results".
+Finnis: Good idea, thank you! We think ~15 Reports have been made, but I know additional requests were made before this tool was created. We will need to double check with Catalina, when she gets back. I have added this number of reports created from this tool to the first paragraph of the Discussion. I have created a GitHub issue in the repo to make sure this gets addressed. I think it would also be good to mention in the Abstract.
 
 
 Line 129 - 132: I really enjoy this sentence and if it's appropriate absolutely keep it but this could maybe be reworded to something like "Due to the need for swift and effective approaches the Strategic Reproducable Analytical Pipeline (RAP) Champions team was formed to automate the creation of these reports" That being said, I've only ever reviewed one stock update and a Res. Doc. both of which had a different tone so I'm uncertain if any change needs to be made here.
 
-Finnis: I agree with your edit. I've rephrased this.
+Finnis: I agree with your edit- this sentence is a bit wordy. I've rephrased this based on your advice.
 \pagebreak
