@@ -22,12 +22,3 @@ DFO receives baseline information in the application that is collected by the pr
 The size of a PEZ is site-dependent, but has typically been on the order of hundreds of meters to kilometers away from the proposed site. While information from a fish and fish habitat survey is also submitted by the proponent as part of the baseline requirements, there are limitations to using this information as the requirements are focused on the immediate vicinity of the lease area at one point in time. 
 
 Because of this, DFO Science’s participation in the review of aquaculture site applications was one of the earliest motivations behind development of the Spatial Reproducible Reporting Tool. The tool is used to search the PEZs for an efficient and consistent way of gaining an indication of species and habitats that have been observed within the PEZs, and therefore may be exposed to organic matter and/or fish health treatment products from the proposed site. To provide the advice requested of DFO Science, there is a focus on information related to SAR listed under Schedule 1 of the Species at Risk Act, fishery species, Ecologically Significant Species (ESS), and their associated habitats, as well as EBSAs. The records returned from the tool are then used to guide further consultation with species and subject matter experts about aspects such as spatial and temporal distribution in the area, uniqueness to the area, and whether or not they may be susceptible to exposures from the proposed aquaculture site.  
-
-Review:
-
-Line 515: In addition to mentioning PIER here you could give this groups new name and acronym (IMERP) I actually don't know what the entire name is right now though.
-\pagebreak
-
-Finnis: Another good catch! I checked with our coauthor, Adrian Hamer, and he said the new team name is Integrated Marine Response Planning (IMRP). I replaced this throughout the Report (but mentioned it was formerly named PIER) . 
-
-Gomez: Great to know that PIER will continue under this new name.
