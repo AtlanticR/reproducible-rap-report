@@ -22,8 +22,13 @@ Line 129: Is it possible to get a rough number of requests in here? If this is p
 
 Finnis: Good idea, thank you! We think ~15 Reports have been made, but I know additional requests were made before this tool was created. We will need to double check with Catalina, when she gets back. I have added this number of reports created from this tool to the first paragraph of the Discussion. I have created a GitHub issue in the repo to make sure this gets addressed. I think it would also be good to mention in the Abstract.
 
+Gomez: Yes! - update to approximately 20 since the beggining of this tool when Gordana and I were running the Rmarkdowns directly.
 
 Line 129 - 132: I really enjoy this sentence and if it's appropriate absolutely keep it but this could maybe be reworded to something like "Due to the need for swift and effective approaches the Strategic Reproducable Analytical Pipeline (RAP) Champions team was formed to automate the creation of these reports" That being said, I've only ever reviewed one stock update and a Res. Doc. both of which had a different tone so I'm uncertain if any change needs to be made here.
 
 Finnis: I agree with your edit- this sentence is a bit wordy. I've rephrased this based on your advice.
+
+
+Gomez: Stephen & Jake - thank you so much! for the throroughreviews and updates to adress all of the suggestions.
+
 \pagebreak

@@ -29,3 +29,5 @@ Line 515: In addition to mentioning PIER here you could give this groups new nam
 \pagebreak
 
 Finnis: Another good catch! I checked with our coauthor, Adrian Hamer, and he said the new team name is Integrated Marine Response Planning (IMRP). I replaced this throughout the Report (but mentioned it was formerly named PIER) . 
+
+Gomez: Great to know that PIER will continue under this new name.
