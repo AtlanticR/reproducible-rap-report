@@ -1,7 +1,7 @@
 # WORKFLOW
 
 ## Brief overview
-This technical report represents an overview of the processes employed in the Spatial Reproducible Reporting Tool, and each main box presented is described in a separate section (Fig. \@ref(fig:rap-workflow)). This work was motivated by repeat requests for reports that identified relevant datasets, which previously took (several weeks to prepare). In response, this data discovery tool was developed to generate automated Reports to identify relevant DFO and non-DFO datasets within a user-defined area in the DFO Maritimes region. The resulting output is an HTML document outlining datasets, caveats, sources of uncertainty, and contacts to the relevant parties. 
+This technical report represents an overview of the processes employed in the Spatial Reproducible Reporting Tool, and each main box presented is described in a separate section (Fig. \@ref(fig:rap-workflow)). This work was motivated by repeat requests for reports that identified relevant datasets, which previously took several weeks to prepare. In response, this data discovery tool was developed to generate automated Reports to identify relevant DFO and non-DFO datasets within a user-defined area in the DFO Maritimes region. The resulting output is an HTML document outlining datasets, caveats, sources of uncertainty, and contacts to the relevant parties. 
 ```{r rap-workflow, out.width = "100%", fig.cap = "Overview of the generalized workflow used to create Spatial Reproducible Reports for DFO Science advice. Expert consultation and co-creation (not shown) are integral components of the entire workflow.", echo=FALSE}
 knitr::include_graphics("data/rapWorkflow.png")
 ```
@@ -154,7 +154,7 @@ The final HTML document takes approximately four minutes to generate. The Report
 
     Within this section, the available data within the user’s search area are presented. If no data for a specific dataset are observed, an automatically-generated message will appear stating this. When data are present, typically both a map depicting the data observations, and a table with a data summary are presented. For point data, tables usually document the number of occurrences for each species within the search area. For polygon data (e.g., Ecologically and Biologically Significant Areas), tables typically state which regions intersect with the search area, although this may vary depending on the dataset. Currently, datasets are presented within three main modules, including: 
     
-    i. **Species**: Results are currently categorized into (a) Information from the National Aquatic Species at Risk (Geodatabase), (b) Fish and Invertebrates, (c) Cetaceans, and (d) Areas designated for spatial planning (Fig. \@ref(fig:shiny-Sections)C). We recognize these are not perfect divisions, but were selected as a method for grouping similar datasets and were primarily based on our users’ needs. Datasets with information in more than one of these listed modules may be listed more than once. For example, data from OBIS and (GBIF) contain both “Fish and Invertebrate” (b) and “Cetacean” (c), and data from these portals are separated and summarized within each submodule.
+    i. **Species**: Results are currently categorized into (a) Information from the National Aquatic Species at Risk Geodatabase, (b) Fish and Invertebrates, (c) Cetaceans, and (d) Areas designated for spatial planning (Fig. \@ref(fig:shiny-Sections)C). We recognize these are not perfect divisions, but were selected as a method for grouping similar datasets and were primarily based on our users’ needs. Datasets with information in more than one of these listed modules may be listed more than once. For example, data from OBIS and GBIF contain both “Fish and Invertebrate” (b) and “Cetaceans” (c), and data from these portals are separated and summarized within each submodule.
     ii. **Context**: Provides information on species habitat such as rockweed presence/absence, and Ecologically and Biologically Sensitive Areas (EBSAs).
     iii. **Human Threats**: This section is currently under development and primarily focuses on data products of human activities (i.e., Fishing, Shipping, Miscellaneous, and Cumulative Impact Mapping; Fig. \@ref(fig:shiny-Sections)C) within the search area. This section also contains summary tables (under the Miscellaneous submodule; Fig \@ref(fig:shiny-Sections)C) which show whether or not a species was present in any of the available datasets, and which datasets they were observed in. A literature review of threats and threat mitigation for Species at Risk is also provided. 
 Because users can interactively select the modules and submodules to be included from the Shiny App, not all sections and subsections may be included in the Full Reports (Fig. \@ref(fig:shiny-Sections)C). 
@@ -172,34 +172,9 @@ As Strategic RAP Champions, we aim to bring reproducible workflows to the forefr
 
 The following includes specific examples where we have actively contributed and shared knowledge related to our work:
 
+* We have delivered approximately 20 Reports in the Maritimes Region, rendered in about 10 minutes, summarizing a variety of data sources. 
 * We have coordinated and participated in activities related to the R Learning & Development community to improve approaches, share lessons learned, and transfer reproducibility skills to the broader community. For example, this has included a series of five presentations and focused break-out groups presented by inSileco to introduce interested members of DFO to Git, GitHub, R Markdown, and *csasdown*. 
 * Multiple presentations and discussions (30+) have been held for the past three years with various sectors (e.g., Science, Aquaculture Management, Marine Planning and Conservation, Integrated Planning, and the Species at Risk Program), including a DFO Maritimes Coffee Chat, a Fed Talk, and an hour-long presentation to the Population Ecology Division as well as the National R Learning & Development community at DFO. 
 * We led a two-day hackathon in February 2022 with members of the Ocean Tracking Network and DFO-Maurice Lamontagne Institute (MLI). The DFO-MLI team is interested in using reproducible reporting tools to generate general outputs from their annual at-sea missions.
-
-Review notes:
-
-Line 151: Again, if possible a quantified # of requests and an average response time for each would be fantastic here (But I fully appreciate that this is likely very difficult or impossible to get).
-
-Finnis: Yes, see comment in Introduction. I think it is ~15 but will need to check with Catalina.
-
-Line 159 & 160: This is just a stylistic comment so by all means completely disregard it. In place of "Predicated" here I would use "based" and in line 160 I would use "conceptualization" instead of "ideation". My manuscripts were constantly hammered by my supervisors to use more accessible language in scientific writing while I was in my Master's so this comment is coming from that training (Trauma?). Any stylistic things I come across I'll highlight, but again, these are only suggestions, feel free to keep or throw out any of these.
-
-Finnis: Thank you for the suggestions! I've had similar experiences but sometimes I still can't find the right words. I've changed these.
-
-Line 172: Maybe "used" instead
-
-Finnis: I've made your suggested change, but updated "using R Markdown" to "with R Markdown" on line 174 to reduce the number of times "used" (/user) occurs in this paragraph.
-
-Line 222 - 226: For the flow of this section I feel like this paragraph might be better placed after the actual data sources presented in Line 227 - 234. 
-
-Finnis: Good suggestion, I've moved this.
-
-Line 241 - 247: I'm wondering if it wouldn't be better to present where the data is stored first and then explain the reasoning behind this in terms of how updates or changes to the data could cause errors if the tool used live storage.
-
-Finnis: I have rephrased this section. I have also added a sentence which clarifies a question that came in from our coauthor, after this was sent to you, about how data are updated.
-
-Line 452: Should this be Geodatabase? I did a quick search for Geotabase and I couldn't find anything
-
-Finnis: Definitely a typo. I've fixed this. Thank you!
 
 \pagebreak
