@@ -14,21 +14,4 @@ DFO collects a wealth of data, yet in various instances, datasets not initially 
 
 There are many potential future directions and opportunities within DFO to pursue this work  through the continued development of the Spatial Reproducible Reporting Tool, and its corresponding influence on data practices in the department. We have presented only a single application of the reproducible analytical pipelines developed in this work. The highly agile workflows created for data wrangling and processing could allow more complex issues to be addressed with reduced overhead, such as multi-species and multi-threat approaches, and more tailored aquaculture siting or environmental response reporting. We have other grand aspirations such as expanding this work into other regions in DFO, creating version(s) of the App that can be made available to the public, introducing these workflows to freshwater ecosystems, adding Aquatic Invasive Species data, and incorporating the widespread co-creation and code review of the Reproducible Reports. These endeavors become increasingly feasible as the data pipelines become more streamlined; however, this project is still heavily dependent on funding streams each year, which will influence our future directions. Beyond working within the confines of the existing workflows, their modularity allows individual components to be rapidly exported into other projects. Ongoing development of R packages to encompass widely applicable sections of this work can enhance the scope of pipelines across DFO and beyond. 
 
-Review:
-
-Line 611 - 613: I feel like you're underselling yourselves here a little. I'd argue that DFO as a whole has gained time from your efforts with creating this tool and will only continue saving more time as the tool is updated and adopted more widely.
-
-Finnis: Thank you for pointing this out. I have rephrased the sentence to state that this tool/initiative will continue to save time as the work expands.
-
-Line 614 - 628: It might be worth it to clarify that the training was offered to Maritimes region and not to DFO in general. (if it was only offered to Maritimes, I'm unsure who was in those sessions now)
-
-Finnis: I have clarified the text to state these sessions were for DFO Maritimes employees. We have had a few discussions in our group for deciding the exact audience of this technical report (e.g., DFO in general, DFO Science, DFO Maritimes, etc.) and have this be consistent throughout the text, We have tried to make the overall message applicable to DFO in general, but for this part, you're right- DFO Maritimes.
-
-Line 629 - 646: I think the discussion about limitations and work - life balance are very important here but I'm not sure that this is the right tone for the discussion. Are the limitations outlined here in reference to the production of the tool or in championing reproducible workflows in DFO? 
-
-Is the scope of the tool significantly less than what was originally proposed? If so, I think this paragraph could be structured in a more direct way. Starting with a very blatant statement like "The tool as presented here did not meet the standard originally proposed by the RAP team" then from there explain the limitations, issues encountered, lessons learned, and what could have been done differently. If the tool presented is on track with what was originally proposed, I think this paragraph is still good to include but perhaps frame it in more of "We completed what we set out to do but it could be so much more" and then list limitations, issues, etc and the ways in which you would improve the tool if only these things hadn't popped up.
-
-Finnis: I agree with the tone not being suitable for a Technical Report. A few of the sentences are not needed here.
-I would say we are on track of doing what we set out to do. I think some of the original plans have maybe changed along the way- Catalina could probably speak best to that- but it's not vastly different from the original goal. I have tried to rephrase the paragraph to have a more direct/"technical" tone. I hope this new rephrased paragraph about scope creep flows well into a more specific challenge in the next paragraph- data governance.
-
 \pagebreak
