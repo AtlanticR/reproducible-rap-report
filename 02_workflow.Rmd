@@ -60,7 +60,7 @@ Because the Reports contain Protected B data, we treat each Report as Protected 
 
 Tiers of data quality for each dataset were developed by our team and the data providers in order to provide guidance and urge caution when interpreting the data summaries (Table \@ref(tab:qualTable)). Considerable subjectivity remains in this classification; we welcome suggestions about how to improve this section to characterize information from a vast variety of sources.
 
-```{r qualTable, warning=FALSE, results=}
+```{r qualTable, warning=FALSE, results="asis"}
 qualData <- readr::read_csv(file.path("data", "QualityTiers.csv"))
 options(knitr.kable.NA = "") # include this or blank rows from linesep function will show NA
 
