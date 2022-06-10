@@ -39,18 +39,18 @@ We track the datasets that have been or will be incorporated into the Report in 
 
 ### Data storage and updates
 
-New data or changes to datasets can bring challenges to our Reports, if the code is not adapted to deal with potential issues such as new data formats or outliers. As a result, we do not host "live" versions of the data, and instead versions of the data are downloaded and stored on internal servers. However, for Open Data records, automated GitHub actions were developed to periodically run tests and update the Open Data files. Copies of the processed data, metadata, and final Reports are maintained on DFO's internal network. We intend to move all datasets to the Azure cloud system once it can host Protected B information.
+Copies of the processed data, metadata, and final Reports are stored on DFO’s internal network, but we intend to move all datasets to the Azure cloud system once it can host Protected B information. Since new data or changes to datasets can bring challenges to our Report, we do not host “live” versions of the data. For example, the code may not be adapted to deal with potential issues such as new data formats or outliers. However, for Open Data records, automated GitHub actions were developed to periodically run tests and update the Open Data files. Our team is currently investigating methods and best practices for updating the datasets so the information remains current.
 
 ### Data access
 
-These datasets have different Government of Canada security levels, which affect how we store and distribute the data. For each dataset, we identify its security level from the following classifications:
+The datasets accessed by the Reproducible Reporting tool have differing Government of Canada security levels, which affect how we store and distribute the data. For each dataset, we identify its security level from the following classifications:
 
 -   None: data do not present any security risks or include sensitive government information and assets; and
 -   Protected B: Data may include information or assets that, if compromised, could cause serious injury to an individual, organization or government [@PWGSC2021].
 
 The above classifications are then used to guide data use constraints, which specify how the data can be used by individuals. These include:
 
--   None: data can be used and freely shared by anyone. This is typical of data that are made publicly available such as through the Canada Open Data Portal [@OpenData2022], or other online portals such as OBIS [-@OBIS2022] and the Global Biodiversity Information Facility [-@GBIF2022].
+-   None: data can be used and freely shared by anyone. This is typical of data that are made publicly available such as through the Canada Open Data Portal [@OpenData2022], or other online portals such as the Ocean Biodiversity Information System (OBIS) [-@OBIS2022] and the Global Biodiversity Information Facility (GBIF) [-@GBIF2022].
 -   DFO Internal Use Only: data are not to be shared externally to DFO. This is true for all Protected B data, and some DFO datasets that are not shared publicly.
 
 Due to the presence of Protected B data in some Reports, we treat all Reports as Protected B, and they are not to be shared outside of DFO. We are currently considering approaches to create Reports that do not contain Protected B data, so they can be freely-shared with the public or other government departments or agencies.
@@ -100,7 +100,7 @@ The search area is determined by the Report user and often reflects dispersal of
 -   Draw from map: user can interactively draw a search area on the map in various formats including polygon, rectangle or circle;
 -   Bounding box: user provides minimum and maximum latitude and longitude coordinates;
 -   Individual point: user provides coordinates for a single location. In addition, a buffer, in meters, is typically also provided to search for data within a larger area; and
--   Upload from file: user can upload a spatial data file. This tool supports a variety of vector formats (e.g., ESRI shapefiles, KMLs, etc.)
+-   Upload from file: user can upload a spatial data file. This tool supports a variety of vector formats (e.g., ESRI shapefiles, KMLs, etc.).
 
 ```{r shiny-AOI, out.width = "100%", fig.cap = "Screenshot of the R Shiny Application developed to draw an area of interest in various formats (draw from map, bounding box, individual point, or import files). Currently, only members of the core team are able to generate Reports due security concerns associated with Protected B information.", echo=FALSE}
 knitr::include_graphics("data/shinyAOI.png")
@@ -139,7 +139,7 @@ We refer to "metadata" as the information listed at the beginning of each datase
 
 ### *RR* objects
 
-The *RR* objects are created as a result of the preprocessing steps described above. These standardized objects are used as data inputs for a variety of common functions to develop the dynamic aspects of the Report (e.g., metadata, tables and maps). The spatial data in the *RR* objects are stored as simple feature (*sf*) objects, a formal standard for storing spatial data [ISO 19125-1:2004, @Pebesma2018]. *Sf* objects store both species information (e.g., common name, scientific name, SARA status, COSEWIC status, etc.) and a geometry column that contains the spatial information of the data. The most common geometries include point, linestring (i.e., line), and polygon, although others are available [@Pebesma2018]. *sf* objects also include a coordinate reference system which describes how to place the data on the Earth's surface (in this case, WGS84). Although *sf* objects could readily be exported as an ESRI shapefile or, more appropriately, another open data format (e.g., GeoJSON), saving these as .RData minimizes the read and write times, and prevents various formatting issues (e.g., ESRI shapefile field name character limits).
+The *RR* objects are created as a result of the preprocessing steps described above. These standardized objects are used as data inputs for a variety of common functions to develop the dynamic aspects of the Report (e.g., metadata, tables and maps). The spatial data in the *RR* objects are stored as simple feature (*sf*) objects, a formal standard for storing spatial data [ISO 19125-1:2004, @Pebesma2018]. *sf* objects store both species information (e.g., common name, scientific name, SARA status, COSEWIC status, etc.) and a geometry column that contains the spatial information of the data. The most common geometries include point, linestring (i.e., line), and polygon, although others are available [@Pebesma2018]. *sf* objects also include a coordinate reference system which describes how to place the data on the Earth's surface (in this case, WGS84). Although *sf* objects could readily be exported as an ESRI shapefile or, more appropriately, another open data format (e.g., GeoJSON), saving these as .RData minimizes the read and write times, and prevents various formatting issues (e.g., ESRI shapefile field name character limits).
 
 <!-- MMM Edit: have you guys considered adding an AphiaID in addition to the common and scientific names?  They're essentially the defacto mechanism for marine species identification-->
 <!-- CG: Great point Mike. This could be a great addition for consistency. Dan Ricard created a workflow to add AphiaID so maybe we could borrow his workflow not just for these reports but perhaps for other related purposes as ell? TBD! https://github.com/dfo-gulf-science/Maritimes-SUMMER-Atlas/blob/4f26c2772b7d2f6659181cbc88d3ed8cb7c885e0/summaries-taxonomy.R -->
