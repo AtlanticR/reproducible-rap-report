@@ -1,7 +1,7 @@
 ---
 title: "An open, efficient, and transparent spatial reproducible reporting tool for data discovery and science advice"
 year: 2022
-report_number: nnn
+report_number: 3495
 author: |
   Quentin Stoyel^1^,
   Stephen Finnis^1^,
@@ -16,7 +16,7 @@ author: |
   Sean Butler^3^,
 author_list: "Stoyel, Q., Finnis, S., Gomez, C., Lazin, G., Daigle, R., Brager, L., Hamer, A., Smith, C., Beauchesne, D., Cazelles, K., Butler, S."
 region: Maritimes Region
-isbn: ""
+isbn: "978-0-660-44314-0"
 address: |
   ^1^Bedford Institute of Oceanography\
      Fisheries and Oceans Canada, 1 Challenger Drive PO Box 1006\
